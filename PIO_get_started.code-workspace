@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "C3_SuperMini_Blink",
+			"path": "C3_SuperMini_Blink"
+		},
+		{
+			"name": "PushBTN_User_Lib_Demo",
+			"path": "PushBTN_User_Lib_Demo"
+		},
+		{
+			"name": "OneButton_Lib_Demo",
+			"path": "OneButton_Lib_Demo"
+		}
+	],
+	"settings": {}
+}
