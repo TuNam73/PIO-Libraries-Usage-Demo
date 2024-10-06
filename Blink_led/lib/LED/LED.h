@@ -1,8 +1,4 @@
-/***
- * LED.h: A class for Led objects
- * By: Nguyen Anh Tuan (Apr., 2022)
- * 
- ***/
+
 #pragma once
 #include <Arduino.h>
 
@@ -62,7 +58,11 @@ void LED::flip()
 void LED::blink(int duration)
 {
     _duration = duration;
-    state = BLINK;
+    if ((millis() - _timer) > _duration)
+    {
+        digitalWrite(_pin, !digitalRead(_pin));
+        _timer = millis();
+    }
 }
 
 void LED::loop()

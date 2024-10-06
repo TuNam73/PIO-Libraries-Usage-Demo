@@ -4,7 +4,9 @@
 
 void btnPush();
 void btnHold();
-PushBTN button(BTN_PIN, BTN_ACT, btnPush, btnHold);
+void btnDouble();
+
+PushBTN button(BTN_PIN, BTN_ACT, btnPush, btnHold, btnDouble);
 
 LED led(LED_PIN, LED_ACT);
 
@@ -24,7 +26,10 @@ void btnPush()
     led.flip();
 }
 
-void btnHold()
-{
+void btnHold(){
+    led.blink(1000);
+}
+
+void btnDouble(){
     led.blink(200);
 }
