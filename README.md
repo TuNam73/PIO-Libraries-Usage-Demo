@@ -1,5 +1,6 @@
 # Platform IO: Libraries Usage Demo 
-By Nguyễn Anh Tuấn
+Originally created by: Nguyễn Anh Tuấn
+Improvements and Contributions by: Từ Văn Hoài Nam
 
 _Dùng cho lớp "Phát triển ứng dụng IoT" tại khoa Vật lý - HUS_
 
